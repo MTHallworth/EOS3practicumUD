@@ -1,0 +1,52 @@
+]0;~/Desktop/EOS/EOS3practicumUD[?1034hwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ [Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git origin [K[K[K[K[K[K[Kpull origin policy
+remote: Counting objects: 3, done.[K
+remote: Compressing objects:  50% (1/2)   [Kremote: Compressing objects: 100% (2/2)   [Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+   7b5bdcc..656bc8d  policy     -> origin/policy
+error: The following untracked working tree files would be overwritten by merge:
+	.gitignore
+Please move or remove them before you merge.
+Aborting
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ [Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ [Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git add. gitignore[K[K[K[K[K[K[K[K[K[K[K .gitignore
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git commit -m\[K[Km ".gitignore"
+[policy c1d481d] .gitignore
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .gitignore
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull origin policy
+remote: Counting objects: 3, done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+   656bc8d..491eba2  policy     -> origin/policy
+Auto-merging .gitignore
+CONFLICT (add/add): Merge conflict in .gitignore
+Automatic merge failed; fix conflicts and then commit the result.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git add rn[Km. gitignot[K[K[K[K[K[K[K[K[K[K gitignore. gitignore[1P gitignore[C.gitignore
+fatal: pathspec 'rm' did not match any files
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git rm .gitignore
+.gitignore: needs merge
+rm '.gitignore'
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ [Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull origin policy
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git commit -m .git[K[K[K[K".gitignore"
+[policy 23bbcca] .gitignore
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull origin policy
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+Already up-to-date.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull origin policy
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+Already up-to-date.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull origin policy
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+Already up-to-date.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull 
