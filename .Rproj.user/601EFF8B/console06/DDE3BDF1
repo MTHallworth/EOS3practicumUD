@@ -49,4 +49,57 @@ Already up-to-date.
 From https://github.com/MTHallworth/EOS3practicumUD
  * branch            policy     -> FETCH_HEAD
 Already up-to-date.
-]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull 
+[Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git rm .gitignore
+fatal: pathspec '.gitignore' did not match any files
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git fetch origin policy
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git pull origin policy
+From https://github.com/MTHallworth/EOS3practicumUD
+ * branch            policy     -> FETCH_HEAD
+Already up-to-date.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ [Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git status
+On branch policy
+Your branch is up-to-date with 'origin/policy'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    .Rproj.user/601EFF8B/sources/s-29D47CD6/2A18C4A7-contents[m
+	[32mdeleted:    .Rproj.user/601EFF8B/sources/s-29D47CD6/E9FDFA3F-contents[m
+	[32mdeleted:    .Rproj.user/601EFF8B/sources/s-29D47CD6/lock_file[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/601EFF8B/console06/DDE3BDF1[m
+	[31mmodified:   .Rproj.user/601EFF8B/console06/DDE3BDF1.env[m
+	[31mmodified:   .Rproj.user/601EFF8B/console06/INDEX001[m
+
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git checkout
+M	.Rproj.user/601EFF8B/console06/DDE3BDF1
+M	.Rproj.user/601EFF8B/console06/DDE3BDF1.env
+M	.Rproj.user/601EFF8B/console06/INDEX001
+D	.Rproj.user/601EFF8B/sources/s-29D47CD6/2A18C4A7-contents
+D	.Rproj.user/601EFF8B/sources/s-29D47CD6/E9FDFA3F-contents
+D	.Rproj.user/601EFF8B/sources/s-29D47CD6/lock_file
+Your branch is up-to-date with 'origin/policy'.
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ git status
+On branch policy
+Your branch is up-to-date with 'origin/policy'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    .Rproj.user/601EFF8B/sources/s-29D47CD6/2A18C4A7-contents[m
+	[32mdeleted:    .Rproj.user/601EFF8B/sources/s-29D47CD6/E9FDFA3F-contents[m
+	[32mdeleted:    .Rproj.user/601EFF8B/sources/s-29D47CD6/lock_file[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/601EFF8B/console06/DDE3BDF1[m
+	[31mmodified:   .Rproj.user/601EFF8B/console06/DDE3BDF1.env[m
+	[31mmodified:   .Rproj.user/601EFF8B/console06/INDEX001[m
+
+]0;~/Desktop/EOS/EOS3practicumUDwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ [Kwifi-roaming-128-4-121-95:EOS3practicumUD christopheroster1$ 
