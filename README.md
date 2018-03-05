@@ -1,1 +1,2 @@
-# EOS3practicumUD
+# EOS3 Practicum - Policy Project
+We're the coolest group.
